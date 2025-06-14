@@ -1,5 +1,5 @@
-body{
-    background:linear-gradient(rgb(6, 6, 240),rgb(110, 110, 250)); 
+.section1{
+    background:rgb(7, 41, 232); 
     background-repeat:no-repeat;
     background-attachment:fixed;
 }
@@ -17,17 +17,19 @@ button{
     animation:slide 1500ms ease;
     animation-fill-mode:forwards;
 }
+button:hover{
+    background-color:gray;
+}
 @keyframes slide{
     0%{
         margin-right:150%;
-        margin-bottom:0px;
+        margin-bottom:10px;
     }
     100%{
-        border:4px solid;
+        border:2px solid;
         border-radius:25px;
         margin-left:40%;
         margin-bottom:10px;
-        background-color:rgb(27, 185, 69);
         font-size:15px;
     }
 }
