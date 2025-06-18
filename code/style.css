@@ -1,7 +1,18 @@
+body{
+    margin:0px;
+}
 .section1{
-    background:rgb(7, 41, 232); 
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background:rgb(7, 41, 232);
+    margin:0px;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+.section2{
+    background:rgb(255, 166, 0);
+    margin:0px;
+    position:absolute;
+    width:100%;
 }
 h1{
     color:red;
