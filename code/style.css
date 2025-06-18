@@ -12,19 +12,21 @@ body{
     position:absolute;
     width:100%;
 }
-#box1{
+.box1{
     width:150px;
     height:150px;
     border:2px solid;
     margin-left: 40%;
     animation: box1 2500ms infinite ease-in-out;
+    z-index:10;
 }
-#box2{
+.box2{
     width:150px;
     height:150px;
     border:2px solid;
     background-color:skyblue;
     animation: box2 2500ms infinite ease-in-out;
+    z-index:10;
 }
 h1{
     color:red;
