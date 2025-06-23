@@ -12,27 +12,55 @@ body{
     position:absolute;
     width:100%;
 }
-.box1{
+.section3{
+    background:rgb(57, 221, 7);
+    position:absolute;
+    width:100%;
+}
+.section4{
+    background:red;
+    position:absolute;
+    width:100%; 
+}
+#box1{
     width:150px;
     height:150px;
     border:2px solid;
     margin-left: 40%;
     animation: box1 2500ms infinite ease-in-out;
-    z-index:10;
 }
-.box2{
+#box2{
     width:150px;
     height:150px;
     border:2px solid;
     background-color:skyblue;
     animation: box2 2500ms infinite ease-in-out;
-    z-index:10;
+}
+#box3{
+    height:150px;
+    border:2px solid;
+    background-color:skyblue;
+    animation: box3 2500ms infinite alternate ease-in-out;
+}
+#sound{
+    border:2px solid;
+    height:50px;
+    width:100px;
+    border-radius:25px;
+    background-color:rgb(0, 190, 255);
+    margin-left:45%;
+    animation:none;
+}
+#sound:hover{
+    background-color:rgb(13, 169, 220);
+}
+#sound:active{
+    background-color:rgb(33, 93, 113);
 }
 h1{
     color:red;
     font-family:"consolas","sans-serif";
     font-weight:bold;
-    margin-left:35%;
     font-size:22px
 }
 button{
@@ -41,6 +69,17 @@ button{
     width:200px;
     animation:slide 1500ms ease;
     animation-fill-mode:forwards;
+}
+input{
+    border:2px solid;
+    height:50px;
+    width:200px;
+    border-radius:25px;
+    margin-left:40%;
+    font-family:"consolas","sans-serif";
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
 }
 button:hover{
     background-color:gray;
@@ -84,5 +123,21 @@ button:hover{
     }
     100%{
         margin-left:20%;
+    }
+}
+@keyframes box3{
+    0%{
+        width:150px;
+        margin-left: 40%;
+    }
+    50%{
+        width:90%;
+        margin-left:0;
+    }
+    100%{
+        width:150px;
+        margin-left: 40%;
+        background-color:blue;
+        border-radius:50%;
     }
 }
