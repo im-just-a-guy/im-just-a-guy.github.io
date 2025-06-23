@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>mon site</title>
-        <link rel="stylesheet" href="code/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="section1">
-            <h1>1. Vidéos random que j'aime</h1>
+            <div style="display: flex;justify-content:center;">
+                <h1>1.Vidéos random</h1>
+            </div>
             <a href="https://www.youtube.com/shorts/2PgLYiEKxf4" target="_blank">
                 <button>ping pong</button>
             </a>
@@ -38,13 +40,39 @@
                 <button>wow it's magic / oh no the door is locked</button>
             </a>
             <div class="section2">
-                <h1>2. transitions de la haiçe</h1>
-                <div class="box1"></div>
+                <div style="display:flex;justify-content:center;">
+                    <h1>2.transitions de la haiçe</h1>
+                </div>
+                <div id="box1"></div>
                 <br>
-                <div class="box2"></div>
+                <div id="box2"></div>
                 <br>
                 <br>
+                <div id="box3"></div>
+                <br>
+                <div class="section3">
+                    <div style="display:flex;justify-content:center;">
+                        <h1>3.euh</h1>
+                    </div>
+                    <div style="display: flex;justify-content:center;">
+                        <h1>Choisir un nombre: </h1>
+                    </div>
+                    <input id="number" type="number" min="0">
+                    <br>
+                    <br>
+                    <button id="sound" onclick="Section3()">Valider</button>
+                    <br>
+                    <br>
+                    <h1 id="message" style="margin-left:40%;">.</h1>
+                    <div class="section4">
+                        <div style="display:flex;justify-content:center;">
+                            <h2>4. qui veut faire exploser son PC ?</h2>
+                        </div>
+                        <button id="killer" onclick="Kill()">CLIQUEZ MOI</button>
+                    </div>
+                </div>
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
