@@ -13,7 +13,7 @@ function Getalert(){
     alert("Ce site souhaite:\n-Accéder à votre compte bancaire");
 }
 function getMusic(){
-    let music = new Audio("sound1.mp3");
+    let music = new Audio("code/sound1.mp3");
     music.play();
 }
 play.addEventListener("click",getMusic);
