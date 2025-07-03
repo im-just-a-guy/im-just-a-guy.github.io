@@ -12,8 +12,13 @@ function Getalert(){
     alert("Ce site souhaite:\n-Accéder à votre compte bancaire");
 }
 function Kill(){
-    let a=0;
     while (true){
-        a+=Math.random() * Math.random();
+        while (true){
+            while (true){
+                while (true){
+                    
+                }
+            }
+        }
     }
 }
