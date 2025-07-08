@@ -12,15 +12,17 @@ body{
     position:absolute;
     width:100%;
 }
-.section3{
+.section4{
     background:rgb(57, 221, 7);
     position:absolute;
-    width:100%;
-}
-.section4{
-    background:red;
-    position:absolute;
     width:100%; 
+}
+#version{
+    color:yellow;
+    animation: version 1s infinite ease-in-out;
+    transform: rotate(-38deg);
+    margin-top:0;
+    margin-left:70%;
 }
 #box1{
     width:150px;
@@ -42,7 +44,7 @@ body{
     background-color:skyblue;
     animation: box3 2500ms infinite alternate ease-in-out;
 }
-#sound{
+#valider{
     border:2px solid;
     height:50px;
     width:100px;
@@ -51,10 +53,10 @@ body{
     margin-left:45%;
     animation:none;
 }
-#sound:hover{
+#valider:hover{
     background-color:rgb(13, 169, 220);
 }
-#sound:active{
+#valider:active{
     background-color:rgb(33, 93, 113);
 }
 h1{
@@ -139,5 +141,16 @@ button:hover{
         margin-left: 40%;
         background-color:blue;
         border-radius:50%;
+    }
+}
+@keyframes version{
+    0%{
+        font-size:25px;
+    }
+    50%{
+        font-size:30px;
+    }
+    100%{
+        font-size:25px;
     }
 }
