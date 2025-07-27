@@ -2,18 +2,18 @@ body{
     margin:0;
 }
 .section1{
-    background:rgb(7, 41, 232);
+    background:linear-gradient(cyan,orange);
     position:absolute;
     top:0;
     width:100%;
 }
 .section2{
-    background:rgb(255, 166, 0);
+    background:linear-gradient(orange,greenyellow);
     position:absolute;
     width:100%;
 }
-.section4{
-    background:rgb(57, 221, 7);
+.section3{
+    background:linear-gradient(greenyellow,greenyellow);
     position:absolute;
     width:100%; 
 }
@@ -44,23 +44,8 @@ body{
     background-color:skyblue;
     animation: box3 2500ms infinite alternate ease-in-out;
 }
-#valider{
-    border:2px solid;
-    height:50px;
-    width:100px;
-    border-radius:25px;
-    background-color:rgb(0, 190, 255);
-    margin-left:45%;
-    animation:none;
-}
-#valider:hover{
-    background-color:rgb(13, 169, 220);
-}
-#valider:active{
-    background-color:rgb(33, 93, 113);
-}
 h1{
-    color:red;
+    color:tomato;
     font-family:"consolas","sans-serif";
     font-weight:bold;
     font-size:22px
@@ -69,22 +54,12 @@ button{
     border:0px solid;
     height:50px;
     width:200px;
-    animation:slide 1500ms ease;
-    animation-fill-mode:forwards;
-}
-input{
-    border:2px solid;
-    height:50px;
-    width:200px;
-    border-radius:25px;
-    margin-left:40%;
-    font-family:"consolas","sans-serif";
-    font-weight:bold;
-    font-size:20px;
-    text-align:center;
+    animation:slide 1500ms ease forwards;
 }
 button:hover{
-    background-color:gray;
+    background-color:lightgray;
+    width:210px;
+    font-weight: bold;
 }
 @keyframes slide{
     0%{
