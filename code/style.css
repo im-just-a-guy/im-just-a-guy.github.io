@@ -44,6 +44,13 @@ body{
     background-color:skyblue;
     animation: box3 2500ms infinite alternate ease-in-out;
 }
+#cookies{
+    width:100%;
+    background-color:lightslategray;
+    height:30%;
+    position:fixed;
+    z-index:3;
+}
 h1{
     color:tomato;
     font-family:"consolas","sans-serif";
