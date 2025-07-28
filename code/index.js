@@ -12,3 +12,7 @@ function Kill(){
         }
     }
 }
+function DeleteCookies(){
+    let cookies = document.getElementById("cookies");
+    cookies.remove();
+}
