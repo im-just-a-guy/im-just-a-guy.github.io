@@ -2,18 +2,23 @@ body{
     margin:0;
 }
 .section1{
-    background:linear-gradient(cyan,orange);
+    background:linear-gradient(cyan,greenyellow);
     position:absolute;
     top:0;
     width:100%;
 }
 .section2{
-    background:linear-gradient(orange,greenyellow);
+    background:linear-gradient(greenyellow,orange);
     position:absolute;
     width:100%;
 }
 .section3{
-    background:linear-gradient(greenyellow,greenyellow);
+    background:linear-gradient(orange,pink);
+    position:absolute;
+    width:100%; 
+}
+.section4{
+    background:linear-gradient(pink,pink);
     position:absolute;
     width:100%; 
 }
@@ -21,14 +26,14 @@ body{
     color:yellow;
     animation: version 1s infinite ease-in-out;
     transform: rotate(-38deg);
-    margin-top:0;
+    margin-top:10%;
     margin-left:70%;
 }
 #box1{
     width:150px;
     height:150px;
     border:2px solid;
-    margin-left: 40%;
+    margin-left: 45%;
     animation: box1 2500ms infinite ease-in-out;
 }
 #box2{
@@ -69,7 +74,7 @@ button:hover{
     100%{
         border:2px solid;
         border-radius:25px;
-        margin-left:40%;
+        margin-left:45%;
         margin-bottom:10px;
         font-size:15px;
     }
@@ -105,7 +110,7 @@ button:hover{
 @keyframes box3{
     0%{
         width:150px;
-        margin-left: 40%;
+        margin-left: 45%;
     }
     50%{
         width:90%;
@@ -113,7 +118,7 @@ button:hover{
     }
     100%{
         width:150px;
-        margin-left: 40%;
+        margin-left: 45%;
         background-color:blue;
         border-radius:50%;
     }
