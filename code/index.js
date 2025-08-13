@@ -22,6 +22,9 @@ function TranslateFr(){
     document.getElementById("killer").textContent="CLIQUEZ MOI"
     document.getElementById("rickroll").textContent="CLIQUEZ MOI AUSSI"
     document.getElementById("section4").textContent="4.musiques random (en gros c'est ma playlist)"
+    document.getElementById("section5").textContent="5.Des trucs qui datent de 2020"
+    document.getElementById("eye").textContent="en cas d'épilepsie,vueillez contacter un medecin"
+    document.getElementById("fraise").textContent="fraise"
 }
 function TranslateEn(){
     document.getElementById("section1").textContent="1.random videos"
@@ -33,6 +36,9 @@ function TranslateEn(){
     document.getElementById("killer").textContent="CLICK ME"
     document.getElementById("rickroll").textContent="CLICKE ME TOO"
     document.getElementById("section4").textContent="4.random musics (my playlist)"
+    document.getElementById("section5").textContent="5.Things from 2020"
+    document.getElementById("eye").textContent="in case of epilepsy,please contact a doctor"
+    document.getElementById("fraise").textContent="strawberry"
 }
 function TranslateDe(){
     document.getElementById("section1").textContent="1.zufällige Videos"
@@ -44,4 +50,7 @@ function TranslateDe(){
     document.getElementById("killer").textContent="KLICK MICH"
     document.getElementById("rickroll").textContent="KLICK AUCH MICH AN"
     document.getElementById("section4").textContent="4.zufällige Musikstücke (meine Playlist)"
+    document.getElementById("section5").textContent="5.Dinge aus dem Jahr 2020"
+    document.getElementById("eye").textContent="Im Falle von Epilepsie kontaktieren Sie bitte einen Arzt."
+    document.getElementById("fraise").textContent="Erdbeere"
 }
