@@ -18,7 +18,12 @@ body{
     width:100%; 
 }
 .section4{
-    background:linear-gradient(pink,pink);
+    background:linear-gradient(pink,blue);
+    position:absolute;
+    width:100%; 
+}
+.section5{
+    background:linear-gradient(blue,blue);
     position:absolute;
     width:100%; 
 }
