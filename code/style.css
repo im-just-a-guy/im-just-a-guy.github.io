@@ -22,11 +22,6 @@ body{
     position:absolute;
     width:100%; 
 }
-.section5{
-    background:linear-gradient(blue,blue);
-    position:absolute;
-    width:100%; 
-}
 #version{
     color:yellow;
     animation: version 1s infinite ease-in-out;
