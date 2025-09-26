@@ -3,7 +3,7 @@ body{
     background-color:rgb(10, 123, 222);
 }
 h1{
-    color:tomato;
+    color:rgb(0, 0, 0);
     font-family:"consolas","sans-serif";
     font-weight:bold;
     font-size:22px;
@@ -15,7 +15,7 @@ button{
     width:200px;
     margin:10px;
     border-radius:20px;
-    margin-left:40%;
+    margin-left:35%;
 }
 button:hover{
     background-color:lightgray;
